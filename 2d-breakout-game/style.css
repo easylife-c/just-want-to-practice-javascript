@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+canvas {
+    background: #eee;
+    display: block;
+    margin: 0 auto;
+}
+.style {
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    
+
+}
+.buttons {
+    width: 1000px;
+    height: 350px;
+    background-color: rgb(0, 162, 255);
+    border-radius: 25px;
+    border-color: blueviolet solid ;
+    margin: 50px;
+    font-size: xx-large;
+
+}
+.buttons:hover {
+    background-color: rgb(0, 64, 255);
+    cursor: pointer;
+    transition: 0.3;
+
+}
